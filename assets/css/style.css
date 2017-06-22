@@ -67,7 +67,7 @@ h3 {
 }
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 0px;
   padding-right: 15px; /*added this in*/
 }
 nav a {
@@ -95,11 +95,12 @@ footer {
 }
 /* sidebar */
 .sidebar {
-  float: right;
+
   width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
+  margin-right:25px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -126,9 +127,7 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
+  margin-bottom: 40px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -202,117 +201,3 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) { /*First*/
-
-  .wrapper {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) { /*Second*/
-
-  /*.wrapper{
-   
-  }*/
-
-
-  .main-section {
-    max-width: none;
-    margin-top: 120px;
-    margin-bottom: 0px;
-  }
-
-  #main-container {
-    padding-top: 0;
-  }
-
-nav {
-
-  float: left;
-
-}
-
-nav a {
-  display: inline-block;
-  padding-left: 2px;
-  margin-left: 10px;
-  margin-right: 5px;
-  /*float: left;*/
-}
-
-  .sidebar {
-    width: 100%;
-    margin-top: 40px;
-    background: blue;
-    /*float: left;*/
-    clear: both;
-    max-width: 100%
-  }
-
-
-/*.work {
-  float: left;
-
-}*/
-
-@media screen and (max-width: 640px) { /*Third*/
-
-  /*.wrapper{
-    
-  }*/
-
-.work {
-  /*margin: 0 auto;*/
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-  #logo {
-    width: 100%;
-    clear: both;
-
-  }
-
-  nav {
-    /*clear: both;*/
-    float: none;
-    text-align: center;
-
-  }
-
-  nav a {
-  
-/*float: left;*/
-
-  /*display: inline-block;
-  padding-left: 2px;
-  margin-left: 10px;
-  margin-right: 5px;*/
-
-
-  }
-
-  .sidebar {
-    width: 100%;
-    margin-top: 40px;
-    background: red;
-    float: left;
-  }
-
-  .main-section {
-  /*width: 100%;*/
-  max-width: none;
-    margin-top: 120px;
-    margin-bottom: 0px;
-  }
-
- #masthead {
- /*   position: static;*/
-  }
-
-} 
-
-/*.work {
-  float: none;
-}*/
